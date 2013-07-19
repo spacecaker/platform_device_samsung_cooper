@@ -1,4 +1,2 @@
-android_device_cooper
-=====================
-
-Device configuration for AOSP GingerBread Cooper
+Device configuration for Cooper AOSP GB
+=======================================
