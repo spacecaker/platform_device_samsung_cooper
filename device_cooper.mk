@@ -30,8 +30,8 @@ DEVICE_PACKAGE_OVERLAYS := device/samsung/cooper/overlay
 #Packages built and used by the ROM
 PRODUCT_PACKAGES += \
     librs_jni \
-    libOmxCore \    
-    libOmxVidEnc \	
+    libOmxCore \
+    libOmxVidEnc \
     make_ext4fs \
     brcm_patchram_plus \
     sec_touchscreen.kcm \
@@ -84,7 +84,7 @@ PRODUCT_COPY_FILES += \
     device/samsung/cooper/prebuilt/COOPER.rle:root/COOPER.rle \
     device/samsung/cooper/prebuilt/lib/modules/fsr.ko:root/lib/modules/fsr.ko \
     device/samsung/cooper/prebuilt/lib/modules/fsr_stl.ko:root/lib/modules/fsr_stl.ko \
-    device/samsung/cooper/prebuilt/lib/modules/sec_param.ko:root/lib/modules/sec_param.ko
+    device/samsung/cooper/prebuilt/lib/modules/sec_param.ko:root/lib/modules/sec_param.ko \
     device/samsung/cooper/prebuilt/cifs.ko:system/lib/modules/cifs.ko \
     device/samsung/cooper/prebuilt/tun.ko:system/lib/modules/tun.ko \
     device/samsung/cooper/prebuilt/zram.ko:system/lib/modules/zram.ko	
