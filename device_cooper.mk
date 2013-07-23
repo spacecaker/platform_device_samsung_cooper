@@ -126,7 +126,7 @@ PRODUCT_COPY_FILES += \
     device/samsung/cooper/prebuilt/system/etc/dhcpcd/dhcpcd.conf:system/etc/dhcpcd/dhcpcd.conf \
     device/samsung/cooper/prebuilt/system/etc/vold.fstab:system/etc/vold.fstab 
 
-# Audio/GPS/Lights/egl/modules/RIL
+# Audio/GPS/Lights/egl/modules/RIL/HW
 PRODUCT_COPY_FILES += \
     device/samsung/cooper/prebuilt/system/etc/AudioFilter.csv:system/etc/AudioFilter.csv \
     device/samsung/cooper/prebuilt/system/etc/AutoVolumeControl.txt:system/etc/AutoVolumeControl.txt \
@@ -134,7 +134,13 @@ PRODUCT_COPY_FILES += \
     device/samsung/cooper/prebuilt/system/lib/hw/gps.cooper.so:system/lib/hw/gps.cooper.so \
     device/samsung/cooper/prebuilt/system/lib/hw/lights.cooper.so:system/lib/hw/lights.cooper.so \
     device/samsung/cooper/prebuilt/system/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
+    device/samsung/cooper/prebuilt/system/lib/hw/gps.goldfish.so:system/lib/hw/gps.goldfish.so \
+    device/samsung/cooper/prebuilt/system/lib/hw/gps.msm7k.so:system/lib/hw/gps.msm7k.so \
+    device/samsung/cooper/prebuilt/system/lib/hw/gralloc.cooper.so:system/lib/hw/gralloc.cooper.so \
+    device/samsung/cooper/prebuilt/system/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
+    device/samsung/cooper/prebuilt/system/lib/hw/sensors.goldfish.so:system/lib/hw/sensors.goldfish.so \
     device/samsung/cooper/prebuilt/system/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
+    device/samsung/cooper/prebuilt/system/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \	
     device/samsung/cooper/prebuilt/system/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     device/samsung/cooper/prebuilt/system/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     device/samsung/cooper/prebuilt/system/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
@@ -143,6 +149,34 @@ PRODUCT_COPY_FILES += \
     device/samsung/cooper/prebuilt/system/lib/libgsl.so:system/lib/libgsl.so \
     device/samsung/cooper/prebuilt/system/lib/libril.so:system/lib/libril.so \
     device/samsung/cooper/prebuilt/system/lib/libsec-ril.so:system/lib/libsec-ril.so \
+    device/samsung/cooper/prebuilt/system/lib/libstdc++.so:system/lib/libstdc++.so \
+    device/samsung/cooper/prebuilt/system/lib/libstlport.so:system/lib/libstlport.so \
+    device/samsung/cooper/prebuilt/system/lib/libsurfaceflinger.so:system/lib/libsurfaceflinger.so \
+    device/samsung/cooper/prebuilt/system/lib/libsurfaceflinger_client.so:system/lib/libsurfaceflinger_client.so \
+    device/samsung/cooper/prebuilt/system/lib/libsystem_server.so:system/lib/libsystem_server.so \
+    device/samsung/cooper/prebuilt/system/lib/libsysutils.so:system/lib/libsysutils.so \
+    device/samsung/cooper/prebuilt/system/lib/libbluedroid.so:system/lib/libbluedroid.so \
+    device/samsung/cooper/prebuilt/system/lib/libbluetooth.so:system/lib/libbluetooth.so \	
+    device/samsung/cooper/prebuilt/system/lib/libbluetoothd.so:system/lib/libbluetoothd.so \
+    device/samsung/cooper/prebuilt/system/lib/libc.so:system/lib/libc.so \
+    device/samsung/cooper/prebuilt/system/lib/libc_malloc_debug_leak.so:system/lib/libc_malloc_debug_leak.so \
+    device/samsung/cooper/prebuilt/system/lib/libc_malloc_debug_qemu.so:system/lib/libc_malloc_debug_qemu.so \
+    device/samsung/cooper/prebuilt/system/lib/libandroid_servers.so:system/lib/libandroid_servers.so \
+    device/samsung/cooper/prebuilt/system/lib/libandroid.so:system/lib/libandroid.so \
+    device/samsung/cooper/prebuilt/system/lib/libandroid_runtime.so:system/lib/libandroid_runtime.so \
+    device/samsung/cooper/prebuilt/system/lib/libEGL.so:system/lib/libEGL.so \
+    device/samsung/cooper/prebuilt/system/lib/libGLESv1_CM.so:system/lib/libGLESv1_CM.so \
+    device/samsung/cooper/prebuilt/system/lib/libGLESv2.so:system/lib/libGLESv2.so \
+    device/samsung/cooper/prebuilt/system/lib/libgsl.so:system/lib/libgsl.so \
+    device/samsung/cooper/prebuilt/system/lib/libril.so:system/lib/libril.so \
+    device/samsung/cooper/prebuilt/system/lib/libstagefright.so:system/lib/libstagefright.so \
+    device/samsung/cooper/prebuilt/system/lib/libstagefright_amrnb_common.so:system/lib/libstagefright_amrnb_common.so \	
+    device/samsung/cooper/prebuilt/system/lib/libstagefright_avc_common.so:system/lib/libstagefright_avc_common.so \
+    device/samsung/cooper/prebuilt/system/lib/libstagefright_color_conversion.so:system/lib/libstagefright_color_conversion.so \
+    device/samsung/cooper/prebuilt/system/lib/libstagefright_enc_common.so:system/lib/libstagefright_enc_common.so \
+    device/samsung/cooper/prebuilt/system/lib/libstagefright_foundation.so:system/lib/libstagefright_foundation.so \
+    device/samsung/cooper/prebuilt/system/lib/libstagefright_omx.so:system/lib/libstagefright_omx.so \
+    device/samsung/cooper/prebuilt/system/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \	
     device/samsung/cooper/prebuilt/system/lib/libsecril-client.so:system/lib/libsecril-client.so 
 
 # Camera/Video    
