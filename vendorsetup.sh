@@ -23,4 +23,3 @@
 
 add_lunch_combo cooper-eng
 add_lunch_combo cooper-userdebug
-add_lunch_combo cooper-debug

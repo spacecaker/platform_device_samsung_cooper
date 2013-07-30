@@ -140,7 +140,7 @@ PRODUCT_COPY_FILES += \
     device/samsung/cooper/prebuilt/system/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
     device/samsung/cooper/prebuilt/system/lib/hw/sensors.goldfish.so:system/lib/hw/sensors.goldfish.so \
     device/samsung/cooper/prebuilt/system/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    device/samsung/cooper/prebuilt/system/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \	
+    device/samsung/cooper/prebuilt/system/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
     device/samsung/cooper/prebuilt/system/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     device/samsung/cooper/prebuilt/system/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     device/samsung/cooper/prebuilt/system/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
@@ -156,7 +156,7 @@ PRODUCT_COPY_FILES += \
     device/samsung/cooper/prebuilt/system/lib/libsystem_server.so:system/lib/libsystem_server.so \
     device/samsung/cooper/prebuilt/system/lib/libsysutils.so:system/lib/libsysutils.so \
     device/samsung/cooper/prebuilt/system/lib/libbluedroid.so:system/lib/libbluedroid.so \
-    device/samsung/cooper/prebuilt/system/lib/libbluetooth.so:system/lib/libbluetooth.so \	
+    device/samsung/cooper/prebuilt/system/lib/libbluetooth.so:system/lib/libbluetooth.so \
     device/samsung/cooper/prebuilt/system/lib/libbluetoothd.so:system/lib/libbluetoothd.so \
     device/samsung/cooper/prebuilt/system/lib/libc.so:system/lib/libc.so \
     device/samsung/cooper/prebuilt/system/lib/libc_malloc_debug_leak.so:system/lib/libc_malloc_debug_leak.so \
@@ -170,13 +170,13 @@ PRODUCT_COPY_FILES += \
     device/samsung/cooper/prebuilt/system/lib/libgsl.so:system/lib/libgsl.so \
     device/samsung/cooper/prebuilt/system/lib/libril.so:system/lib/libril.so \
     device/samsung/cooper/prebuilt/system/lib/libstagefright.so:system/lib/libstagefright.so \
-    device/samsung/cooper/prebuilt/system/lib/libstagefright_amrnb_common.so:system/lib/libstagefright_amrnb_common.so \	
+    device/samsung/cooper/prebuilt/system/lib/libstagefright_amrnb_common.so:system/lib/libstagefright_amrnb_common.so \
     device/samsung/cooper/prebuilt/system/lib/libstagefright_avc_common.so:system/lib/libstagefright_avc_common.so \
     device/samsung/cooper/prebuilt/system/lib/libstagefright_color_conversion.so:system/lib/libstagefright_color_conversion.so \
     device/samsung/cooper/prebuilt/system/lib/libstagefright_enc_common.so:system/lib/libstagefright_enc_common.so \
     device/samsung/cooper/prebuilt/system/lib/libstagefright_foundation.so:system/lib/libstagefright_foundation.so \
     device/samsung/cooper/prebuilt/system/lib/libstagefright_omx.so:system/lib/libstagefright_omx.so \
-    device/samsung/cooper/prebuilt/system/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \	
+    device/samsung/cooper/prebuilt/system/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     device/samsung/cooper/prebuilt/system/lib/libsecril-client.so:system/lib/libsecril-client.so 
 
 # Camera/Video    
@@ -261,7 +261,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.device.screenrotation=270
 
-# Location settings + Performance (check in CMSettings)
+# Location settings
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.locationfeatures=1 \
     ro.setupwizard.enable_bypass=1 \
